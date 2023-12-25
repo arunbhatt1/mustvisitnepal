@@ -1,0 +1,45 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+}
+.container{
+    width: 80%;
+    display: block;
+}
+.clear{
+    clear: both;
+    display: block;
+}
+header{
+    padding: 20px 0;
+}
+header h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: red;
+}
+nav{
+    background-color: steelblue;
+}
+.menu{
+    padding: 15px 0;
+}
+.menu a{
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font: 16px;
+    display: inline;
+    padding: 0 20px;
+}
+.menu a:first-child{
+    padding-left: 0;
+}
+.menu a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
