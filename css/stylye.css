@@ -123,7 +123,7 @@ nav{
     text-align: center;
 }
 #newsletter input[type=text]{
-    padding: 5px;
+    padding: 10px;
     width: 250px;
     border: none;
     outline: none;
@@ -171,3 +171,64 @@ footer{
 }
 .fbox ul li a:hover{
     color:#4d484e;
+}
+#content{
+    padding: 30px 0;
+}
+#content h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:  #787f91;
+    margin-bottom: 20px;
+}
+.days{
+    background-color: #4d484e;
+    color: #c5aa9b;
+    padding:10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.medium{
+    background-color: #c5aa9b;
+    color: #291925;
+    padding:10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.nature{
+    background-color:#666b82;
+    color: #548cac;
+    padding:10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+#content img{
+    text-align: left;
+    display: block;
+    margin: 20px 0;
+    width: auto;
+    height: 400px;
+    padding: 30px;
+}
+
+.itinerary{
+   margin: 20px 0;
+}
+.itinerary h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px 0;
+}
+.itinerary p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.book{
+    background-color: #548cac;
+    color: #b4a899;
+    padding:10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    display: inline-block;
+}
