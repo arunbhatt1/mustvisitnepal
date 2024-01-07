@@ -33,23 +33,27 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.942165706027!2d85.30005447412722!3d27.688182326338925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19e60ae8656b%3A0xd8715f2ae901608!2sSagarmatha%20Engineering%20College!5e0!3m2!1sen!2snp!4v1703728958633!5m2!1sen!2snp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="form">
-                    <form action="">
+                    <form action="" onsubmit="return validate()">
                         <h4>Contact Us</h4>
                         <p>
                             <label>Name</label>
-                            <input type="text" placeholder="Enter your name">
+                            <input type="text" id="name" placeholder="Enter your name">
+                            <span id="nameEr"></span>
                         </p>
                         <p>
                             <label>Email</label>
-                            <input type="text" placeholder="Enter your email">
+                            <input type="text" id="email" placeholder="Enter your email">
+                            <span id="emailEr"></span>
                         </p>
                         <p>
                             <label>Phone Number</label>
-                            <input type="text" placeholder="Enter your phone number">
+                            <input type="text" id="phone_number" placeholder="Enter your phone number">
+                            <span id="phoneEr"></span>
                         </p>
                         <p>
                             <label>Drop a line</label>
-                            <textarea name="" id="" ></textarea>
+                            <textarea name="" id="message" ></textarea>
+                            <span id="messageEr"></span>
                         </p>
                         <input type="submit" value="Send Us">
                     </form>
@@ -63,7 +67,78 @@
             <input type="text" placeholder="email"> <input type="submit" value="Subscribe">
         </form>
     </section>
-    <footer>
-    </footer>
+    footer>
+    <div class="container">
+      <div class="fboxes">
+        <div class="fbox">
+          <h6>Blogs</h6>
+          <ul>
+            <li>
+              <a href="">Pikey Peak Trek - The Best Trekking in Lower Everest 2023</a>
+            </li>
+            <li>
+              <a href="">Mohare Danda Trek : Best Short Trek from Pokhara</a>
+            </li>
+            <li>
+              <a href="">How Many Trekking Routes are in Nepal</a>
+            </li>
+            <li>
+              <a href="">Best Nepal Trekking in December 2023</a>
+            </li>
+          </ul>
+        </div>
+        <div class="fbox">
+          <h6>Packages</h6>
+          <ul>
+            <li>
+              <a href="">Annapurna base camp</a>
+            </li>
+            <li>
+              <a href="">Everest base camp</a>
+            </li>
+            <li>
+              <a href="">Langtang valley trek</a>
+            </li>
+          </ul>
+        </div>
+        <div class="fbox">
+          <h6>Useful resources</h6>
+          <ul>
+            <li>
+              <a href="">Nepal Tourism Board</a>
+            </li>
+            <li>
+              <a href="">Ministry of Tourism</a>
+            </li>
+            <li>
+              <a href="">Hotel Association of Nepal</a>
+            </li>
+            <li>
+              <a href="">Aviation Authority of Nepal</a>
+            </li>
+          </ul>
+        </div>
+        <div class="fbox">
+          <h6>Contact us</h6>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script>
+        function validate(){
+            var name, email,phone_number, message;
+            name = document.getElementById('name').value;
+            email = document.getElementById('email').value;
+            phone_number = document.getElementById('phone_number').value;
+            message = document.getElementById('message').value;
+            if(name==' '){
+                //alert("name is required");
+                document.getElementById('nameEr').innerHTML="Name is required";
+                document.getElementById('name').style="border-color:red";  
+                
+            }
+            return false;
+        }
+    </script>
 </body>
 </html>
