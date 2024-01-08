@@ -131,14 +131,16 @@
             email = document.getElementById('email').value;
             phone_number = document.getElementById('phone_number').value;
             message = document.getElementById('message').value;
-            if(name==' '){
-                //alert("name is required");
+            if(name==''){
                 document.getElementById('nameEr').innerHTML="Name is required";
                 document.getElementById('name').style="border-color:red";  
-                
+            }
+            if(email==''){
+                document.getElementById('emailEr').innerHTML="email is required";
+                document.getElementById('email').style="border-color:red";
             }
             return false;
-        }
+          }
     </script>
 </body>
 </html>
