@@ -1,0 +1,21 @@
+# Dependencies & dev tools
+node_modules/
+package.json
+package-lock.json
+
+# Image originals (preserved per instructions)
+images/originals/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Antigravity artifacts
+.gemini/
