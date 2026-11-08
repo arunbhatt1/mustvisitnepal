@@ -12,6 +12,9 @@
   <meta property="og:image" content="images/banner.jpg">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://mustvisitnepal.com/">
+  <!-- Preload LCP hero image -->
+  <link rel="preload" as="image" href="images/banner-mobile.webp" type="image/webp" media="(max-width: 600px)">
+  <link rel="preload" as="image" href="images/banner.webp" type="image/webp" media="(min-width: 601px)">
   <!-- Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -47,8 +50,10 @@
     <!-- Hero Banner -->
     <section id="banner" aria-label="Introduction banner">
       <picture>
+        <source media="(max-width: 600px)" srcset="images/banner-mobile.webp" type="image/webp">
+        <source media="(max-width: 600px)" srcset="images/banner-mobile.jpg" type="image/jpeg">
         <source srcset="images/banner.webp" type="image/webp">
-        <img src="images/banner.jpg" alt="Snow-capped Himalayan peaks of central Nepal beneath a morning sky" width="1400" height="525">
+        <img src="images/banner.jpg" alt="Snow-capped Himalayan peaks of central Nepal beneath a morning sky" width="1400" height="525" fetchpriority="high">
       </picture>
       <div class="hero-overlay-card">
         <h1>Naturally Nepal</h1>
