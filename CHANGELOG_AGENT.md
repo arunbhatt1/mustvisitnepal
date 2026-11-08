@@ -176,6 +176,7 @@ Then visit `http://localhost:3000` or `http://localhost:8000`.
 
 ### `git log --oneline`
 ```
+627ad69 docs: sync git log hash and diff stat in CHANGELOG_AGENT.md
 40c9abf docs: add final CHANGELOG_AGENT.md audit report and git diff statistics
 d8b449c perf: add responsive mobile banner and LCP preload link for 90+ Lighthouse score
 ef29a79 docs: add comprehensive README with features, structure, and local run instructions
