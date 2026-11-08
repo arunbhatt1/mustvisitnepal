@@ -1,0 +1,1117 @@
+/* ==========================================================================
+   Must Visit Nepal - Main Stylesheet
+   Design System: Authentic Nepali Trekking Agency
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Fonts (Self-hosted WOFF2, font-display: swap)
+   -------------------------------------------------------------------------- */
+
+/* Bitter (Headings) */
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/bitter-latin-600.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/bitter-latin-ext-600.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/bitter-latin-700.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/bitter-latin-ext-700.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Source Sans 3 (Body and UI) */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/source-sans-3-latin-400.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/source-sans-3-latin-ext-400.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/source-sans-3-latin-600.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/source-sans-3-latin-ext-600.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Mukta (Nepali text) */
+@font-face {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/mukta-devanagari-400.woff2') format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF4, U+1CF7-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B0A;
+}
+
+@font-face {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/mukta-devanagari-600.woff2') format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF4, U+1CF7-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B0A;
+}
+
+/* --------------------------------------------------------------------------
+   Palette & Design Tokens (Strictly 7 Variables)
+   -------------------------------------------------------------------------- */
+:root {
+  --paper: #F5F0E6;   /* warm off-white page background */
+  --sand:  #E6DCC6;   /* alt section background */
+  --ink:   #1E2326;   /* body text, never pure black */
+  --slate: #2F4A58;   /* nav, headings, primary buttons */
+  --rust:  #9A3E20;   /* accent, links, prayer-flag red (WCAG AA compliant) */
+  --moss:  #56654A;   /* secondary accent, badges */
+  --line:  #D3C7AE;   /* borders, dividers */
+
+  --font-heading: 'Bitter', Georgia, serif;
+  --font-body: 'Source Sans 3', system-ui, sans-serif;
+  --font-nepali: 'Mukta', 'Source Sans 3', system-ui, sans-serif;
+
+  --radius: 3px;
+  --transition-fast: 120ms ease;
+}
+
+/* --------------------------------------------------------------------------
+   Global Reset & Base Layout
+   -------------------------------------------------------------------------- */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--paper);
+  color: var(--ink);
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+[lang="ne"] {
+  font-family: var(--font-nepali);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--slate);
+  line-height: 1.18;
+  font-weight: 700;
+}
+
+h1 { font-size: 2.2rem; }
+h2 { font-size: 1.85rem; }
+h3 { font-size: 1.45rem; }
+h4 { font-size: 1.2rem; }
+h5, h6 { font-size: 1.05rem; }
+
+p, li, blockquote, dt, dd {
+  max-width: 68ch;
+}
+
+p + p {
+  margin-top: 1rem;
+}
+
+a {
+  color: var(--rust);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: color var(--transition-fast), text-decoration-thickness var(--transition-fast);
+}
+
+a:hover {
+  color: var(--rust);
+  text-decoration-thickness: 2px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--rust);
+  outline-offset: 3px;
+}
+
+/* Skip Link */
+.skip-link {
+  position: absolute;
+  top: -999px;
+  left: 1rem;
+  background-color: var(--slate);
+  color: var(--paper);
+  padding: 0.5rem 1rem;
+  z-index: 1000;
+  border-radius: var(--radius);
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* Container */
+.container {
+  width: min(1100px, 92%);
+  margin-inline: auto;
+}
+
+/* Visually Hidden Utility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Decorative Mountain Divider */
+.ridge-divider {
+  display: block;
+  width: 100%;
+  height: 24px;
+  color: var(--line);
+  margin: 1.5rem 0;
+}
+
+.section-divider {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 2.5rem 0;
+}
+
+/* Images & Picture Elements */
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+picture {
+  display: block;
+  width: 100%;
+}
+
+figcaption {
+  font-size: 0.88rem;
+  color: var(--slate);
+  margin-top: 0.4rem;
+  font-style: italic;
+}
+
+/* Buttons */
+.btn,
+button,
+input[type="submit"] {
+  display: inline-block;
+  background-color: var(--slate);
+  color: var(--paper);
+  border: 1px solid var(--slate);
+  padding: 0.65rem 1.4rem;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: var(--radius);
+  transition: background-color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.btn:hover,
+button:hover,
+input[type="submit"]:hover {
+  background-color: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+
+.btn-secondary {
+  background-color: var(--sand);
+  color: var(--slate);
+  border: 1px solid var(--line);
+}
+
+.btn-secondary:hover {
+  background-color: var(--line);
+  border-color: var(--slate);
+  color: var(--slate);
+}
+
+/* Badges */
+.badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  border-radius: var(--radius);
+  background-color: var(--moss);
+  color: var(--paper);
+}
+
+.badge-alt {
+  background-color: var(--sand);
+  color: var(--slate);
+  border: 1px solid var(--line);
+}
+
+/* --------------------------------------------------------------------------
+   Header & Navigation
+   -------------------------------------------------------------------------- */
+header.site-header {
+  background-color: var(--paper);
+  border-bottom: 1px solid var(--line);
+  padding: 1.2rem 0;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: var(--slate);
+}
+
+.logo h1 {
+  font-size: 1.85rem;
+  color: var(--slate);
+  letter-spacing: -0.01em;
+}
+
+.logo-sub {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--moss);
+  font-family: var(--font-body);
+  margin-top: 0.15rem;
+}
+
+/* Primary Nav */
+nav.site-nav {
+  background-color: var(--slate);
+  position: relative;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.menu li a {
+  display: block;
+  color: var(--paper);
+  text-decoration: none;
+  font-size: 0.98rem;
+  font-weight: 600;
+  padding: 0.85rem 1.1rem;
+  border-bottom: 2px solid transparent;
+  transition: border-color var(--transition-fast), color var(--transition-fast);
+}
+
+.menu li a:hover {
+  color: var(--paper);
+  border-bottom-color: var(--sand);
+}
+
+.menu li a[aria-current="page"] {
+  border-bottom: 2px solid var(--rust);
+}
+
+/* Mobile Nav Toggle */
+.nav-toggle {
+  display: none;
+  background-color: transparent;
+  border: 1px solid var(--sand);
+  color: var(--paper);
+  font-size: 1rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--radius);
+}
+
+/* --------------------------------------------------------------------------
+   Hero / Banner
+   -------------------------------------------------------------------------- */
+#banner,
+.hero-banner {
+  position: relative;
+  border-bottom: 1px solid var(--line);
+}
+
+#banner img,
+.hero-banner img {
+  width: 100%;
+  aspect-ratio: 16 / 6;
+  max-height: 480px;
+  object-fit: cover;
+}
+
+.hero-overlay-card {
+  position: absolute;
+  top: 50%;
+  left: 6%;
+  transform: translateY(-50%);
+  background-color: var(--slate);
+  color: var(--paper);
+  border: 1px solid var(--line);
+  padding: 1.8rem 2.2rem;
+  border-radius: var(--radius);
+  max-width: 480px;
+}
+
+.hero-overlay-card h2 {
+  color: var(--paper);
+  font-size: 1.7rem;
+  margin-bottom: 0.6rem;
+  text-transform: capitalize;
+}
+
+.hero-overlay-card p {
+  color: var(--sand);
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+.hero-overlay-card .nepali-greeting {
+  display: inline-block;
+  margin-top: 0.4rem;
+  font-size: 1.1rem;
+  color: var(--paper);
+}
+
+/* --------------------------------------------------------------------------
+   Feature / Trek Packages
+   -------------------------------------------------------------------------- */
+#feature,
+.section-packages {
+  padding: 3rem 0;
+}
+
+.section-head {
+  margin-bottom: 2rem;
+}
+
+.section-head h2,
+.section-head h3 {
+  font-size: 1.8rem;
+  color: var(--slate);
+  border-bottom: 2px solid var(--line);
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.section-intro {
+  margin-top: 0.8rem;
+  color: var(--ink);
+  font-size: 1.05rem;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.75rem;
+}
+
+.box {
+  background-color: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+}
+
+.box-image-wrap {
+  overflow: hidden;
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
+.box-image-wrap img {
+  transition: filter var(--transition-fast);
+}
+
+.box:hover .box-image-wrap img {
+  filter: brightness(0.92);
+}
+
+.box-content {
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+.box-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.box h3,
+.box h4 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.box h3 a,
+.box h4 a {
+  color: var(--slate);
+  text-decoration: none;
+}
+
+.box:hover h3 a,
+.box:hover h4 a {
+  color: var(--rust);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+}
+
+.box p {
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin-bottom: 1.2rem;
+  flex: 1 0 auto;
+}
+
+.box-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--line);
+}
+
+.price-tag {
+  font-weight: 600;
+  color: var(--slate);
+  font-size: 0.95rem;
+}
+
+/* --------------------------------------------------------------------------
+   Alternating Rhythm Sections
+   -------------------------------------------------------------------------- */
+.section-sand {
+  background-color: var(--sand);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 3rem 0;
+}
+
+.two-col-layout {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.two-col-layout.reverse {
+  grid-template-columns: 1fr 1.2fr;
+}
+
+.two-col-image img {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.content-block h2,
+.content-block h3 {
+  margin-bottom: 0.8rem;
+}
+
+.content-block ul {
+  margin-top: 1rem;
+  padding-left: 1.4rem;
+}
+
+.content-block li {
+  margin-bottom: 0.5rem;
+}
+
+/* --------------------------------------------------------------------------
+   Newsletter Section
+   -------------------------------------------------------------------------- */
+#newsletter {
+  background-color: var(--slate);
+  color: var(--paper);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 3rem 0;
+}
+
+.newsletter-inner {
+  max-width: 600px;
+  margin-inline: auto;
+  text-align: left;
+}
+
+#newsletter h2,
+#newsletter h3,
+#newsletter h5 {
+  color: var(--paper);
+  font-size: 1.55rem;
+  margin-bottom: 0.5rem;
+}
+
+#newsletter p {
+  color: var(--sand);
+  margin-bottom: 1.2rem;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.newsletter-form input[type="email"] {
+  flex: 1 1 260px;
+  padding: 0.65rem 0.9rem;
+  background-color: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  font-size: 1rem;
+  font-family: var(--font-body);
+}
+
+.newsletter-form input[type="email"]:focus {
+  border-color: var(--rust);
+}
+
+.newsletter-form input[type="submit"],
+.newsletter-form button {
+  background-color: var(--rust);
+  border-color: var(--rust);
+  color: var(--paper);
+}
+
+.newsletter-form input[type="submit"]:hover,
+.newsletter-form button:hover {
+  background-color: var(--ink);
+  border-color: var(--ink);
+}
+
+/* --------------------------------------------------------------------------
+   Footer (Plain, Dense, 3 Columns)
+   -------------------------------------------------------------------------- */
+footer.site-footer {
+  background-color: var(--slate);
+  color: var(--sand);
+  border-top: 1px solid var(--line);
+  padding: 3rem 0 1.5rem 0;
+  font-size: 0.92rem;
+}
+
+.fboxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.fbox h2,
+.fbox h3,
+.fbox h6 {
+  font-size: 1.15rem;
+  color: var(--paper);
+  border-bottom: 1px solid var(--moss);
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.9rem;
+}
+
+.fbox ul {
+  list-style: none;
+}
+
+.fbox ul li {
+  border-bottom: 1px dotted var(--moss);
+  padding: 0.45rem 0;
+}
+
+.fbox ul li:last-child {
+  border-bottom: none;
+}
+
+.fbox a {
+  color: var(--sand);
+  text-decoration: none;
+}
+
+.fbox a:hover {
+  color: var(--paper);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.contact-address p {
+  color: var(--sand);
+  margin-bottom: 0.5rem;
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--moss);
+  padding-top: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  font-size: 0.85rem;
+  color: var(--sand);
+}
+
+.footer-bottom a {
+  color: var(--paper);
+}
+
+/* --------------------------------------------------------------------------
+   Trek Detail Page (.content & dynamic trek template)
+   -------------------------------------------------------------------------- */
+.content,
+#content {
+  padding: 3rem 0;
+}
+
+.trek-header {
+  margin-bottom: 1.8rem;
+}
+
+.trek-header h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.trek-meta-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1rem 0;
+}
+
+.trek-hero-image {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  margin: 1.5rem 0;
+}
+
+.trek-summary {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.trek-highlights-box {
+  background-color: var(--sand);
+  border: 1px solid var(--line);
+  padding: 1.5rem 1.8rem;
+  border-radius: var(--radius);
+  margin-bottom: 2.5rem;
+}
+
+.trek-highlights-box h2 {
+  font-size: 1.35rem;
+  margin-bottom: 0.8rem;
+}
+
+.trek-highlights-box ul {
+  padding-left: 1.2rem;
+}
+
+.trek-highlights-box li {
+  margin-bottom: 0.4rem;
+}
+
+.itinerary {
+  margin: 2.5rem 0;
+}
+
+.itinerary h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.itinerary-list {
+  list-style: none;
+  border-left: 2px solid var(--line);
+  padding-left: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.itinerary-item {
+  position: relative;
+  margin-bottom: 1.8rem;
+}
+
+.itinerary-item::before {
+  content: '';
+  position: absolute;
+  left: calc(-1.5rem - 6px);
+  top: 0.35rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--rust);
+}
+
+.itinerary-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.35rem;
+}
+
+.trek-inclusions-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 2.5rem 0;
+}
+
+.inclusion-card {
+  border: 1px solid var(--line);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+}
+
+.inclusion-card.included {
+  background-color: var(--paper);
+}
+
+.inclusion-card.excluded {
+  background-color: var(--sand);
+}
+
+.inclusion-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.8rem;
+}
+
+.inclusion-card ul {
+  padding-left: 1.2rem;
+}
+
+.inclusion-card li {
+  margin-bottom: 0.4rem;
+}
+
+.trek-permits-box {
+  border-top: 1px solid var(--line);
+  padding-top: 1.5rem;
+  margin: 2rem 0;
+}
+
+.trek-cta-bar {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--line);
+  margin-top: 2rem;
+}
+
+/* --------------------------------------------------------------------------
+   Forms & Contact Page
+   -------------------------------------------------------------------------- */
+.contact_boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+.map {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  min-height: 400px;
+}
+
+.map iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  border: 0;
+}
+
+.form-card {
+  background-color: var(--sand);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 2rem;
+}
+
+.form-card h2,
+.form-card h3 {
+  margin-bottom: 1.2rem;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+  color: var(--slate);
+  font-size: 0.95rem;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.65rem 0.85rem;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  background-color: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  transition: border-color var(--transition-fast);
+}
+
+.form-group textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: var(--rust);
+}
+
+.form-group input.error,
+.form-group select.error,
+.form-group textarea.error {
+  border-color: var(--rust);
+  border-width: 2px;
+}
+
+.error-text {
+  display: block;
+  color: var(--rust);
+  font-size: 0.88rem;
+  margin-top: 0.3rem;
+  font-weight: 600;
+}
+
+.form-success-banner {
+  background-color: var(--sand);
+  border: 2px solid var(--moss);
+  color: var(--ink);
+  padding: 1.2rem;
+  border-radius: var(--radius);
+  margin-bottom: 1.5rem;
+}
+
+.form-success-banner h3 {
+  color: var(--moss);
+  margin-bottom: 0.4rem;
+}
+
+/* --------------------------------------------------------------------------
+   Blog & Article Listing
+   -------------------------------------------------------------------------- */
+.blog-list {
+  display: grid;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.blog-card {
+  border: 1px solid var(--line);
+  background-color: var(--paper);
+  border-radius: var(--radius);
+  padding: 1.8rem;
+}
+
+.blog-card h2 {
+  font-size: 1.45rem;
+  margin-bottom: 0.4rem;
+}
+
+.blog-card h2 a {
+  color: var(--slate);
+  text-decoration: none;
+}
+
+.blog-card h2 a:hover {
+  color: var(--rust);
+  text-decoration: underline;
+}
+
+.blog-meta {
+  font-size: 0.88rem;
+  color: var(--moss);
+  margin-bottom: 0.8rem;
+}
+
+/* --------------------------------------------------------------------------
+   Responsive & Media Queries (<= 768px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+  .nav-toggle {
+    display: block;
+    margin: 0.6rem 0;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding: 0.5rem 0 1rem 0;
+    gap: 0;
+  }
+
+  .menu.open {
+    display: flex;
+  }
+
+  .menu li a {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--moss);
+  }
+
+  .hero-overlay-card {
+    position: static;
+    transform: none;
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+
+  .two-col-layout,
+  .two-col-layout.reverse,
+  .contact_boxes,
+  .trek-inclusions-grid {
+    grid-template-columns: 1fr;
+    gap: 1.8rem;
+  }
+
+  .map {
+    min-height: 280px;
+  }
+
+  .map iframe {
+    min-height: 280px;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+  .newsletter-form input[type="submit"],
+  .newsletter-form button {
+    width: 100%;
+  }
+
+  .fboxes {
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Accessibility: prefers-reduced-motion
+   -------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
