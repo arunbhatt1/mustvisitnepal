@@ -176,16 +176,17 @@ Then visit `http://localhost:3000` or `http://localhost:8000`.
 
 ### `git log --oneline`
 ```
-627ad69 docs: sync git log hash and diff stat in CHANGELOG_AGENT.md
-40c9abf docs: add final CHANGELOG_AGENT.md audit report and git diff statistics
-d8b449c perf: add responsive mobile banner and LCP preload link for 90+ Lighthouse score
-ef29a79 docs: add comprehensive README with features, structure, and local run instructions
-b9ba116 pages: fix all bugs, add semantic pages, and connect validated forms
-1cda046 layout: add shared header/footer partials, forms validation, and main router
-72bbac9 css: refactor styles with design system, 7 variables, reset, and responsive grid
-2dc5ccc data: create treks.json with detailed itineraries and CONTENT_TODO checklist
-793a4b5 images: compress images to WebP/JPG, preserve originals, add fonts and credits
-a66665b Initial commit: original unrevamped site
+44089f9 docs: finalize CHANGELOG_AGENT.md log entries
+7ea157d docs: sync git log hash and diff stat in CHANGELOG_AGENT.md
+66937dd docs: add final CHANGELOG_AGENT.md audit report and git diff statistics
+4af7c08 perf: add responsive mobile banner and LCP preload link for 90+ Lighthouse score
+fa496ad docs: add comprehensive README with features, structure, and local run instructions
+eb062b5 pages: fix all bugs, add semantic pages, and connect validated forms
+8af08e6 layout: add shared header/footer partials, forms validation, and main router
+c958416 css: refactor styles with design system, 7 variables, reset, and responsive grid
+2433607 data: create treks.json with detailed itineraries and CONTENT_TODO checklist
+62d53a0 images: compress images to WebP/JPG, preserve originals, add fonts and credits
+5f8eb11 booking section addded
 ```
 
 ### `git diff --stat main..revamp`

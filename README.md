@@ -15,7 +15,7 @@ Authentic, lightweight static website for a locally owned Himalayan trekking age
 ```
 
 ## Live Demo
-- **GitHub Pages:** [https://arunbhatt1.github.io/mustvisitnepal-main/](https://arunbhatt1.github.io/mustvisitnepal-main/) *(configured from branch `main` or `revamp` root)*
+- **GitHub Pages:** [https://arunbhatt1.github.io/mustvisitnepal/](https://arunbhatt1.github.io/mustvisitnepal/) *(configured from branch `main` root)*
 
 ---
 
