@@ -1,0 +1,379 @@
+[
+  {
+    "slug": "langtang",
+    "name": "Langtang Valley Trek",
+    "tagline": "Glacial valley walk through Tamang villages and yak pastures north of Kathmandu",
+    "days": 7,
+    "difficulty": "Moderate",
+    "season": "March to May, September to November",
+    "maxAltitudeM": 4773,
+    "distanceKm": 65,
+    "style": "Teahouse",
+    "image": "images/langtang-valley",
+    "imageAlt": "Kyanjin Gompa settlement in Langtang Valley at 3,870 m with snowy peaks",
+    "summary": "A 7-day walk starting from Syabrubesi, following the Langtang River through rhododendron forest to the high valley of Kyanjin Gompa. You sleep in family-run teahouses and eat meals made by local lodge hosts.",
+    "highlights": [
+      "Kyanjin Gompa cheese dairy and active monastery",
+      "Panoramic mountain view from Tserko Ri viewpoint at 4,773 m",
+      "Rhododendron and bamboo forests in Langtang National Park",
+      "Traditional Tamang stone houses and carved mani walls"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Drive from Kathmandu to Syabrubesi (1,460 m)",
+        "text": "Morning bus or jeep drive north along the Trishuli River highway to Syabrubesi. Overnight at a teahouse."
+      },
+      {
+        "day": 2,
+        "title": "Syabrubesi to Lama Hotel (2,470 m)",
+        "text": "Cross the Bhote Koshi suspension bridge and climb gradually through oak and rhododendron woods along the Langtang Khola."
+      },
+      {
+        "day": 3,
+        "title": "Lama Hotel to Langtang Village (3,430 m)",
+        "text": "Walk upstream as the valley opens. Pass through Ghodatabela and reach the rebuilt stone houses of Langtang village."
+      },
+      {
+        "day": 4,
+        "title": "Langtang Village to Kyanjin Gompa (3,870 m)",
+        "text": "Ascend past yak pastures and stone prayer walls to Kyanjin Gompa. Visit the local yak cheese production center in the afternoon."
+      },
+      {
+        "day": 5,
+        "title": "Day hike to Tserko Ri (4,773 m) or Kyanjin Ri (4,350 m)",
+        "text": "Early morning ridge ascent for views of Langtang Lirung, Kinshung, and Yansa Tsenji. Return to Kyanjin Gompa for the night."
+      },
+      {
+        "day": 6,
+        "title": "Kyanjin Gompa to Lama Hotel (2,470 m)",
+        "text": "Retrace the trail down the valley, descending back through the forest canopy to Lama Hotel."
+      },
+      {
+        "day": 7,
+        "title": "Lama Hotel to Syabrubesi (1,460 m) and drive back to Kathmandu",
+        "text": "Final trail descent to Syabrubesi, followed by road transfer back to Kathmandu by afternoon."
+      }
+    ],
+    "included": [
+      "Licensed English-speaking Nepali trekking guide",
+      "Porters to carry baggage (1 porter per 2 trekkers, max 15 kg per trekker)",
+      "Teahouse accommodation during the trek",
+      "Three meals daily (breakfast, lunch, dinner) from teahouse menus",
+      "Ground transportation between Kathmandu and Syabrubesi"
+    ],
+    "excluded": [
+      "International flights and Nepal tourist entry visa",
+      "Personal travel and emergency helicopter evacuation insurance",
+      "Personal gear, sleeping bag, and hiking poles",
+      "Hot showers, Wi-Fi access, and battery charging at teahouses",
+      "Tips for guides and porters"
+    ],
+    "permits": [
+      "Langtang National Park Entry Permit (NPR 3,000 / ~USD 23)",
+      "TIMS Card (Trekkers' Information Management System, NPR 2,000 / ~USD 15)"
+    ],
+    "priceUSD": null
+  },
+  {
+    "slug": "annapurna",
+    "name": "Annapurna Base Camp",
+    "tagline": "Classic trail leading directly into the high mountain amphitheater beneath Annapurna South",
+    "days": 10,
+    "difficulty": "Moderate",
+    "season": "March to May, September to November",
+    "maxAltitudeM": 4130,
+    "distanceKm": 115,
+    "style": "Teahouse",
+    "image": "images/annapurna-base-camp",
+    "imageAlt": "Annapurna Base Camp at 4,130 m with surrounding Himalayan peaks",
+    "summary": "Walk from the terraced Gurung hills outside Pokhara straight into the Annapurna Sanctuary. The route passes through bamboo groves, natural hot springs at Jhinu Danda, and ends inside a ring of seven-thousand-meter peaks.",
+    "highlights": [
+      "Standing inside the natural mountain ring of Annapurna Sanctuary",
+      "Close views of Machapuchare (Fishtail) and Annapurna I",
+      "Gurung hospitality in villages such as Ghandruk and Chhomrong",
+      "Natural riverside hot springs at Jhinu Danda"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Drive from Pokhara to Nayapul and trek to Tikhedhunga (1,540 m)",
+        "text": "Drive to Nayapul and follow the Modi River through sub-tropical forest to Tikhedhunga."
+      },
+      {
+        "day": 2,
+        "title": "Tikhedhunga to Ghorepani (2,860 m)",
+        "text": "Climb the stone stairs of Ulleri, then continue through dense rhododendron forest to the village of Ghorepani."
+      },
+      {
+        "day": 3,
+        "title": "Poon Hill sunrise (3,210 m) and trek to Tadapani (2,630 m)",
+        "text": "Early morning walk up Poon Hill for sunrise over Dhaulagiri and Annapurna. Return for breakfast and trek across ridges to Tadapani."
+      },
+      {
+        "day": 4,
+        "title": "Tadapani to Chhomrong (2,170 m)",
+        "text": "Descend through forest to Kimrong Khola, then climb up to the terraced village of Chhomrong."
+      },
+      {
+        "day": 5,
+        "title": "Chhomrong to Dovan (2,600 m)",
+        "text": "Walk down Chhomrong stone steps, cross the river, and walk through bamboo and oak forests to Dovan."
+      },
+      {
+        "day": 6,
+        "title": "Dovan to Deurali (3,200 m)",
+        "text": "Follow the narrow Modi Khola gorge past the Hinku Cave to Deurali where vegetation thins out."
+      },
+      {
+        "day": 7,
+        "title": "Deurali to Machapuchare Base Camp (3,700 m) and Annapurna Base Camp (4,130 m)",
+        "text": "Climb past Machapuchare Base Camp into the open sanctuary. Settle into lodges at Annapurna Base Camp for sunset."
+      },
+      {
+        "day": 8,
+        "title": "Annapurna Base Camp to Bamboo (2,310 m)",
+        "text": "Early morning sunrise over the Annapurna wall, followed by descent back down the gorge to Bamboo."
+      },
+      {
+        "day": 9,
+        "title": "Bamboo to Jhinu Danda (1,780 m)",
+        "text": "Trek up through Chhomrong and down to Jhinu Danda. Visit the riverside natural hot springs."
+      },
+      {
+        "day": 10,
+        "title": "Jhinu Danda to Siwai and drive to Pokhara",
+        "text": "Walk the final trail stretch to Siwai, meet private transport, and drive back to Pokhara by afternoon."
+      }
+    ],
+    "included": [
+      "Licensed English-speaking mountain guide",
+      "Porters for baggage transport (1 porter per 2 trekkers)",
+      "Teahouse lodging along the trail",
+      "Three meals daily while on trek",
+      "Ground transfers between Pokhara and trailhead"
+    ],
+    "excluded": [
+      "Emergency helicopter and mountain rescue insurance",
+      "Hot showers, Wi-Fi, and electronic device charging fees",
+      "Personal gear and clothing",
+      "Tips for guide and porter team"
+    ],
+    "permits": [
+      "Annapurna Conservation Area Project Permit (ACAP, NPR 3,000 / ~USD 23)",
+      "TIMS Card (Trekkers' Information Management System, NPR 2,000 / ~USD 15)"
+    ],
+    "priceUSD": null
+  },
+  {
+    "slug": "everest",
+    "name": "Everest Base Camp",
+    "tagline": "High-altitude path through the Khumbu heartland to the foot of Mount Everest",
+    "days": 14,
+    "difficulty": "Strenuous",
+    "season": "March to May, October to November",
+    "maxAltitudeM": 5545,
+    "distanceKm": 130,
+    "style": "Teahouse",
+    "image": "images/everest-base-camp",
+    "imageAlt": "Everest Base Camp trail with dramatic Himalayan peaks in Khumbu region",
+    "summary": "14 days through Sherpa villages, pine valleys, and glacial moraines in Sagarmatha National Park. You sleep at mountain lodges from Lukla to Gorak Shep, with proper acclimatization days in Namche Bazaar and Dingboche.",
+    "highlights": [
+      "Scenic mountain flight into Lukla airstrip",
+      "Acclimatization days in the trading town of Namche Bazaar",
+      "Tengboche Monastery with view of Ama Dablam",
+      "Reaching Everest Base Camp on the Khumbu Glacier",
+      "Panoramic viewpoint from Kala Patthar peak at 5,545 m"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Flight to Lukla (2,840 m) and trek to Phakding (2,610 m)",
+        "text": "Morning mountain flight to Tenzing-Hillary Airport in Lukla. Meet porters and walk downhill along the Dudh Koshi to Phakding."
+      },
+      {
+        "day": 2,
+        "title": "Phakding to Namche Bazaar (3,440 m)",
+        "text": "Cross the high Hillary suspension bridge, enter Sagarmatha National Park at Monjo, and climb the pine forest switchbacks to Namche Bazaar."
+      },
+      {
+        "day": 3,
+        "title": "Acclimatization day in Namche Bazaar",
+        "text": "Hike to the Everest View Hotel (3,880 m) for your first clear look at Mount Everest, Lhotse, and Ama Dablam. Explore the Sherpa cultural museum."
+      },
+      {
+        "day": 4,
+        "title": "Namche Bazaar to Tengboche (3,860 m)",
+        "text": "Traverse high contour trails with mountain views, drop to Phunki Thenga for lunch, then climb through rhododendrons to Tengboche Monastery."
+      },
+      {
+        "day": 5,
+        "title": "Tengboche to Dingboche (4,410 m)",
+        "text": "Pass through Pangboche village and cross the Imja Khola, entering the treeless alpine valley up to the stone-walled village of Dingboche."
+      },
+      {
+        "day": 6,
+        "title": "Acclimatization day in Dingboche",
+        "text": "Climb the ridge toward Nangkartshang Peak (5,083 m) to aid acclimatization. Rest in the village during the afternoon."
+      },
+      {
+        "day": 7,
+        "title": "Dingboche to Lobuche (4,910 m)",
+        "text": "Ascend the lateral moraine to Dughla, then climb past the stone memorials for climbers on the Thokla pass before reaching Lobuche."
+      },
+      {
+        "day": 8,
+        "title": "Lobuche to Gorak Shep (5,140 m) and Everest Base Camp (5,364 m)",
+        "text": "Trek across the Khumbu glacier moraine to Gorak Shep. Drop heavy packs, continue onto Everest Base Camp, and return to Gorak Shep for night."
+      },
+      {
+        "day": 9,
+        "title": "Sunrise at Kala Patthar (5,545 m) and trek down to Pheriche (4,240 m)",
+        "text": "Pre-dawn climb up Kala Patthar for sunrise over the Everest summit ridge and South Col. Return for food, then descend to Pheriche."
+      },
+      {
+        "day": 10,
+        "title": "Pheriche to Namche Bazaar (3,440 m)",
+        "text": "Descend through Pangboche and Tengboche, crossing back over the Dudh Koshi to arrive at Namche Bazaar."
+      },
+      {
+        "day": 11,
+        "title": "Namche Bazaar to Lukla (2,840 m)",
+        "text": "Final day on trail, descending steep forest trails and crossing bridges to reach Lukla for an evening celebration with the team."
+      },
+      {
+        "day": 12,
+        "title": "Morning flight from Lukla to Kathmandu/Ramechhap",
+        "text": "Early morning flight back out of Lukla. Transfer to your Kathmandu hotel."
+      },
+      {
+        "day": 13,
+        "title": "Contingency weather day in Kathmandu",
+        "text": "Buffer day in case of mountain flight delays at Lukla. Optional rest day in Kathmandu."
+      },
+      {
+        "day": 14,
+        "title": "Trip conclusion",
+        "text": "Final departure transfer to Tribhuvan International Airport."
+      }
+    ],
+    "included": [
+      "Round-trip domestic flights (Kathmandu/Ramechhap to Lukla)",
+      "Experienced high-altitude Sherpa guide and luggage porters",
+      "Teahouse accommodation across the Khumbu valley",
+      "Three meals daily while on trek",
+      "Daily blood oxygen saturation checks with pulse oximeter"
+    ],
+    "excluded": [
+      "Nepal tourist visa and international airfare",
+      "Mandatory high-altitude emergency rescue insurance",
+      "Personal down jacket, sleeping bag, and footwear",
+      "Lodge hot showers, Wi-Fi vouchers, and device charging fees",
+      "Tips for trekking guides and porters"
+    ],
+    "permits": [
+      "Sagarmatha National Park Entry Permit (NPR 3,000 / ~USD 23)",
+      "Khumbu Pasang Lhamu Rural Municipality Permit (NPR 2,000 / ~USD 15)"
+    ],
+    "priceUSD": null
+  },
+  {
+    "slug": "tilicho",
+    "name": "Tilicho / ABC Circuit",
+    "tagline": "Remote high-altitude alpine lake set at 4,919 meters in the northern Annapurna range",
+    "days": 12,
+    "difficulty": "Strenuous",
+    "season": "April to May, September to November",
+    "maxAltitudeM": 4919,
+    "distanceKm": 98,
+    "style": "Teahouse",
+    "image": "images/tilicho-lake",
+    "imageAlt": "Glacial waters of Tilicho Lake at 4,919 m beneath snowy rock peaks",
+    "summary": "A side trail off the classic Annapurna Circuit leading into the windswept valley of upper Manang. Tilicho Lake sits beneath the Great Barrier mountain ridge, surrounded by dry high-altitude terrain.",
+    "highlights": [
+      "Visiting one of the world's highest glacial lakes at 4,919 meters",
+      "Dry Tibetan-plateau landscape and cliffs of upper Manang",
+      "Traditional stone villages and gompas in Braga and Manang",
+      "Trail crossing beneath the frozen Great Barrier peak wall"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Drive from Kathmandu to Besisahar and Chame (2,670 m)",
+        "text": "Jeep drive up the Marshyangdi River gorge through rural settlements to Chame."
+      },
+      {
+        "day": 2,
+        "title": "Chame to Pisang (3,200 m)",
+        "text": "Trek through pine woods past the curved rock slab of Paungda Danda to Upper Pisang."
+      },
+      {
+        "day": 3,
+        "title": "Pisang to Manang (3,540 m)",
+        "text": "Walk the upper route through Ghyaru and Ngawal for panoramic Annapurna views before descending into Manang."
+      },
+      {
+        "day": 4,
+        "title": "Acclimatization day in Manang",
+        "text": "Short acclimatization hike toward Gangapurna glacial lake and visit the Himalayan Rescue Association clinic."
+      },
+      {
+        "day": 5,
+        "title": "Manang to Siri Kharka (4,060 m)",
+        "text": "Branch away from the main Annapurna Circuit trail through the western gate of Manang toward Khangsar and Siri Kharka."
+      },
+      {
+        "day": 6,
+        "title": "Siri Kharka to Tilicho Base Camp (4,150 m)",
+        "text": "Follow high contour paths across scree slopes and eroded hillsides to Tilicho Base Camp."
+      },
+      {
+        "day": 7,
+        "title": "Hike to Tilicho Lake (4,919 m) and back to Siri Kharka",
+        "text": "Early morning climb to Tilicho Lake. Spend time taking in the turquoise water and mountain walls, then descend to Siri Kharka."
+      },
+      {
+        "day": 8,
+        "title": "Siri Kharka to Yak Kharka (4,050 m)",
+        "text": "Rejoin the northern circuit trail heading toward Thorong La pass, spending the night in Yak Kharka."
+      },
+      {
+        "day": 9,
+        "title": "Yak Kharka to Thorong Phedi (4,525 m)",
+        "text": "Short climb up the valley to Thorong Phedi base lodge for early rest before pass crossing."
+      },
+      {
+        "day": 10,
+        "title": "Cross Thorong La Pass (5,416 m) to Muktinath (3,760 m)",
+        "text": "Pre-dawn departure to summit Thorong La pass, followed by long descent to the pilgrimage temple town of Muktinath."
+      },
+      {
+        "day": 11,
+        "title": "Muktinath to Jomsom (2,720 m)",
+        "text": "Walk down through ancient Kagbeni along the windy Kali Gandaki riverbed to Jomsom."
+      },
+      {
+        "day": 12,
+        "title": "Flight or jeep from Jomsom to Pokhara",
+        "text": "Morning transfer from Jomsom to Pokhara. Conclude the trekking portion."
+      }
+    ],
+    "included": [
+      "Licensed English-speaking trek guide and porters",
+      "Teahouse accommodation across the trek route",
+      "Three meals daily from lodge menus",
+      "Jeep transport between Kathmandu and trail start"
+    ],
+    "excluded": [
+      "Personal travel and medical evacuation insurance",
+      "Personal trekking gear and warm sleeping bag",
+      "Hot showers, Wi-Fi access, and battery recharge fees",
+      "Tips for guides and porters"
+    ],
+    "permits": [
+      "Annapurna Conservation Area Project Permit (ACAP, NPR 3,000 / ~USD 23)",
+      "TIMS Card (NPR 2,000 / ~USD 15)"
+    ],
+    "priceUSD": null
+  }
+]
