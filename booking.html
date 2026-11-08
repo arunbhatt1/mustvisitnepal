@@ -1,36 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Trek | Must Visit Nepal</title>
+  <meta name="description" content="Reserve your trekking dates with Must Visit Nepal. Teahouse routes across Langtang, Annapurna, and Everest with certified mountain guides.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Book a Trek | Must Visit Nepal">
+  <meta property="og:description" content="Reserve your Himalayan trek dates with licensed local guides in Kathmandu.">
+  <meta property="og:image" content="images/banner.jpg">
+  <meta property="og:type" content="website">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Booking Form</h1>
-    <form action="#" id="booking">
-        <p>
-            Name: <input type="text" id="name">
-            <span id="nameErr"></span>
-        </p>
-        <p>
-            Email: <input type="text" id="email">
-            <span id="emailErr"></span>
-        </p>
-        <p>
-            Package: <input type="text" id="package">
-            <span id="packageErr"></span>
-        </p>
-        <p>
-            Phone: <input type="text" id="phone">
-            <span id="phoneErr"></span>
-        </p>
-        <p>
-            Any comments: <br>
-            <textarea name="" id="comments" cols="65" rows="5"></textarea>
-            <span id="commentErr"></span>
-        </p>
-        <input type="submit" value="Send">
-    </form>
-    <script src="validation.js"></script>
-</body> 
+  <div id="header-placeholder">
+    <a href="#main" class="skip-link">Skip to main content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">
+          <a href="index.html" class="logo-link">
+            <span class="site-title">Must Visit Nepal</span>
+            <span class="logo-sub">Registered Himalayan Trekking Agency &bull; Kathmandu</span>
+          </a>
+        </div>
+      </div>
+    </header>
+    <nav class="site-nav" aria-label="Main">
+      <div class="container nav-container">
+        <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">Menu</button>
+        <ul class="menu" id="primary-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Who are we?</a></li>
+          <li><a href="offers.html">What we offer</a></li>
+          <li><a href="blog.html">Blogs</a></li>
+          <li><a href="contact.html">Connect with us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <main id="main">
+    <section class="content">
+      <div class="container container-narrow">
+        <div class="section-head">
+          <h1>Trekking Reservation Request</h1>
+          <p class="section-intro">Fill out your preferred route and travel dates. Our Kathmandu office confirms guide availability and sends permit details within 24 hours.</p>
+        </div>
+
+        <div id="booking-success" class="form-success-banner" hidden role="status">
+          <h3>Reservation Received</h3>
+          <p>Thank you for choosing Must Visit Nepal. We have received your booking inquiry and will contact you via email with availability, permit requirements, and deposit details.</p>
+        </div>
+
+        <div class="form-card">
+          <form id="booking-form" novalidate action="#">
+            <!-- Full Name -->
+            <div class="form-group">
+              <label for="name">Full Name <span aria-hidden="true">*</span></label>
+              <input type="text" id="name" name="name" placeholder="First and last name" autocomplete="name" required>
+              <span id="nameErr" class="error-text" aria-live="polite"></span>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+              <label for="email">Email Address <span aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" placeholder="example@domain.com" autocomplete="email" required>
+              <span id="emailErr" class="error-text" aria-live="polite"></span>
+            </div>
+
+            <!-- Phone -->
+            <div class="form-group">
+              <label for="phone">Phone / WhatsApp <span aria-hidden="true">*</span></label>
+              <input type="tel" id="phone" name="phone" placeholder="+977 9800000000" autocomplete="tel" required>
+              <span id="phoneErr" class="error-text" aria-live="polite"></span>
+            </div>
+
+            <!-- Package Selection (Prefilled from ?package=) -->
+            <div class="form-group">
+              <label for="package">Trekking Route <span aria-hidden="true">*</span></label>
+              <select id="package" name="package" required>
+                <option value="">-- Choose a Route --</option>
+                <option value="langtang">Langtang Valley Trek (7 Days)</option>
+                <option value="annapurna">Annapurna Base Camp (10 Days)</option>
+                <option value="everest">Everest Base Camp (14 Days)</option>
+                <option value="tilicho">Tilicho / ABC Circuit (12 Days)</option>
+                <option value="custom">Custom Walking Itinerary</option>
+              </select>
+              <span id="packageErr" class="error-text" aria-live="polite"></span>
+            </div>
+
+            <!-- Comments (Optional) -->
+            <div class="form-group">
+              <label for="comments">Additional Notes or Dietary Needs (optional)</label>
+              <textarea id="comments" name="comments" rows="4" placeholder="Let us know your estimated arrival date, group size, or previous mountain experience."></textarea>
+              <span id="commentErr" class="error-text" aria-live="polite"></span>
+            </div>
+
+            <button type="submit" class="btn">Submit Reservation</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="newsletter">
+      <div class="container newsletter-inner">
+        <h2>Seasonal Trail Updates</h2>
+        <p>We send practical updates on pass conditions, seasonal weather, and trail permits four times a year. No spam.</p>
+        <form id="newsletter-form" novalidate>
+          <div class="newsletter-form">
+            <label for="newsletter_email" class="sr-only">Email address</label>
+            <input type="email" id="newsletter_email" name="newsletter_email" placeholder="Enter your email address" autocomplete="email" required>
+            <button type="submit" class="btn">Subscribe</button>
+          </div>
+          <span id="newsletter_email-error" class="error-text" aria-live="polite"></span>
+        </form>
+        <div id="newsletter-success" class="form-success-banner mt-1" hidden role="status"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-placeholder">
+    <footer class="site-footer">
+      <div class="container">
+        <div class="fboxes">
+          <div class="fbox">
+            <h3>Packages</h3>
+            <ul>
+              <li><a href="trek.html?slug=langtang">Langtang Valley Trek</a></li>
+              <li><a href="trek.html?slug=annapurna">Annapurna Base Camp</a></li>
+              <li><a href="trek.html?slug=everest">Everest Base Camp</a></li>
+              <li><a href="trek.html?slug=tilicho">Tilicho / ABC Circuit</a></li>
+            </ul>
+          </div>
+          <div class="fbox">
+            <h3>Useful Resources</h3>
+            <ul>
+              <li><a href="https://ntb.gov.np" target="_blank" rel="noopener noreferrer">Nepal Tourism Board</a></li>
+              <li><a href="https://tourism.gov.np" target="_blank" rel="noopener noreferrer">Ministry of Culture, Tourism &amp; Civil Aviation</a></li>
+              <li><a href="https://taan.org.np" target="_blank" rel="noopener noreferrer">Trekking Agencies&apos; Association of Nepal (TAAN)</a></li>
+            </ul>
+          </div>
+          <div class="fbox">
+            <h3>Contact Us</h3>
+            <div class="contact-address">
+              <p>Must Visit Nepal Treks Pvt. Ltd.</p>
+              <p>Thamel Marg, Ward 26, Kathmandu, Nepal</p>
+              <p>Phone: <a href="tel:+97714700000">+977&nbsp;1&nbsp;4700000</a></p>
+              <p>Email: <a href="mailto:info@mustvisitnepal.com">info@mustvisitnepal.com</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Must Visit Nepal. Registered with Department of Tourism, Nepal.</p>
+          <p><a href="booking.html" aria-current="page">Booking Request</a> &bull; <a href="contact.html">General Inquiries</a></p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/forms.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    'use strict';
+    document.addEventListener('DOMContentLoaded', () => {
+      // Prefill package from query parameter ?package=
+      const params = new URLSearchParams(window.location.search);
+      const pkgParam = params.get('package');
+      if (pkgParam) {
+        const pkgSelect = document.getElementById('package');
+        if (pkgSelect) {
+          const matchOption = Array.from(pkgSelect.options).find(opt => opt.value === pkgParam);
+          if (matchOption) {
+            pkgSelect.value = pkgParam;
+          }
+        }
+      }
+
+      const bookingForm = document.getElementById('booking-form');
+      if (bookingForm && window.attachErrorClearingListeners) {
+        window.attachErrorClearingListeners(bookingForm);
+      }
+
+      if (bookingForm) {
+        bookingForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+
+          const rules = {
+            name: {
+              required: true,
+              label: 'Name',
+              requiredMessage: 'Name is required.'
+            },
+            email: {
+              required: true,
+              type: 'email',
+              label: 'Email',
+              requiredMessage: 'Email is required.',
+              invalidMessage: 'Please enter a valid email address.'
+            },
+            phone: {
+              required: true,
+              type: 'phone',
+              label: 'Phone number',
+              requiredMessage: 'Phone number is required.',
+              invalidMessage: 'Please enter a valid phone number (+977 or 10 digits).'
+            },
+            package: {
+              required: true,
+              label: 'Trekking route',
+              requiredMessage: 'Please select a trekking route.'
+            }
+          };
+
+          const isValid = window.validateForm ? window.validateForm(bookingForm, rules) : true;
+          if (!isValid) return;
+
+          // TODO: connect Formspree/Netlify Forms endpoint here
+          const successBox = document.getElementById('booking-success');
+          if (successBox) {
+            successBox.removeAttribute('hidden');
+            successBox.scrollIntoView({ behavior: 'smooth' });
+          }
+          bookingForm.setAttribute('hidden', '');
+        });
+      }
+    });
+  </script>
+</body>
 </html>

@@ -122,7 +122,7 @@ function initNewsletter() {
     const successBox = document.getElementById('newsletter-success');
 
     if (successBox) {
-      successBox.style.display = 'block';
+      successBox.removeAttribute('hidden');
       successBox.textContent = 'Thank you! You are subscribed to our seasonal trail reports.';
     }
 
@@ -292,11 +292,11 @@ async function initTrekDetail() {
 function renderTrekNotFound(container, slug) {
   document.title = 'Trek Not Found | Must Visit Nepal';
   container.innerHTML = `
-    <div class="form-card" style="text-align: left; max-width: 650px; margin-inline: auto;">
+    <div class="form-card container-narrow" style="text-align: left; margin-inline: auto;">
       <h2>Trek Route Not Found</h2>
       <p>We could not find a trek route matching <code>${escapeHtml(slug)}</code>.</p>
       <p>Browse our verified trekking routes below:</p>
-      <ul style="margin: 1rem 0 1.5rem 1.5rem;">
+      <ul class="mt-1 mb-3" style="padding-left: 1.5rem;">
         <li><a href="trek.html?slug=langtang">Langtang Valley Trek (7 Days)</a></li>
         <li><a href="trek.html?slug=annapurna">Annapurna Base Camp (10 Days)</a></li>
         <li><a href="trek.html?slug=everest">Everest Base Camp (14 Days)</a></li>
